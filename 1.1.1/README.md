@@ -1,10 +1,10 @@
-# :pushpin: Problem Statement
+# Problem Statement
 
 - You are working as an analyst in TelcoX Mobile, a telecom company that provides home phone and internet services to 7,043 customers across Southern California.
 - A new competitor has moved into the area, and the company you are working for is concerned about losing its existing customers.
 - Your company decided to dig deeper into what is causing customers to leave the company.
 
-# :dart: Business objectives
+# Business objectives
 The senior management of your company has defined the business objectives listed below, and it wants you to offer suggestions that can help achieve these objectives:
 - Understand which services provided by the company are not performing well, so that the product team can improve the quality of such services and ensure the existing customers are happy with them.
 - Identify which variables are affecting the customers’ churn, based on existing data.
@@ -13,7 +13,7 @@ The senior management of your company has defined the business objectives listed
 - Predict which customers at risk of leaving by recognizing patterns that indicate a higher risk of churn.
 - Identify common service bundles from customer service usage data.
 
-# :bookmark: Key metrics
+# Key metrics
 ### Customer churn
 Customer churn can be defined formally as the percentage of customers who have discontinued their subscription to a service in a given period of time. 
 Churn rate = (Number of customers lost) /(Total customers started with)
