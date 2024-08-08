@@ -1,16 +1,16 @@
 # Approach Steps
-1. Sketched the ERD Diagram: Identified relationships between tables and created a database.
-2. Connected to the Database: Analyzed the dataset and performed data profiling, checking for missing values, outliers, and anomalies.
-3. Identified Potential Factors: Analyzed feature importance to identify key predictors of churn. Determined factors that lead to improvement in CLTV and analyzed LTV per group.
-4. Scaled Features: Ensured features had a consistent range or distribution.
-5. Converted Categorical Data: Used label encoding techniques to convert categorical data into numerical format.
-6. Divided the Dataset: Split the dataset into training, validation, and test sets.
-7. Chose Suitable Algorithms: Selected algorithms based on the problem type and data characteristics.
-8. Trained the Model: Used the training dataset to teach the model to recognize patterns.
-9. Evaluated the Model: Assessed the model's generalization capability using the test set and performance metrics such as accuracy, precision, recall, F1 score, ROC-AUC for classification. Used feature importance plots to interpret the impact of each feature on the prediction.
+1. **Sketched the ERD Diagram**: Identified relationships between tables and created a database.
+2. **Connected to the Database**: Analyzed the dataset and performed data profiling, checking for missing values, outliers, and anomalies.
+3. **Identified Potential Factors**: Analyzed feature importance to identify key predictors of churn. Determined factors that lead to improvement in CLTV and analyzed LTV per group.
+4. **Scaled Features**: Ensured features had a consistent range or distribution.
+5. **Converted Categorical Data**: Used label encoding techniques to convert categorical data into numerical format.
+6. **Divided the Dataset**: Split the dataset into training, validation, and test sets.
+7. **Chose Suitable Algorithms**: Selected algorithms based on the problem type and data characteristics.
+8. **Trained the Model**: Used the training dataset to teach the model to recognize patterns.
+9. **Evaluated the Model**: Assessed the model's generalization capability using the test set and performance metrics.
 
 # Model 1. Customer Churn Prediction
-**Goal**
+**Goal** :
 Identify customers at risk of leaving the service.
 
 **Value**
@@ -18,15 +18,16 @@ Identify customers at risk of leaving the service.
 2. Enhancing customer satisfaction through targeted interventions.
 3. Reducing revenue loss associated with customer churn.
 
-**Appropriate machine learning models**
-Binary classification algorithms including Logistic Regression, Decision Trees, Random Forest, and XGBoost.
+**Appropriate machine learning models** :
+1. Use binary classification algorithms including Logistic Regression, Decision Trees, Random Forest, and XGBoost.
+2. Train the models using the training data and perform hyperparameter tuning to optimize model performance.
 
 **Model performance evaluation**
 1. Using metrics such as accuracy, precision, recall, F1 score, and ROC AUC.
 2. Used feature importance plots to interpret the impact of each feature on the prediction.
 
 # Model 2. Customer Segmentation
-**Goal**
+**Goal** :
 Effectively segment customers to tailor retention strategies.
 
 **Value**
@@ -43,7 +44,7 @@ Effectively segment customers to tailor retention strategies.
 3. Profile the clusters based on key attributes and identify potential opportunities for targeted marketing.
 
 # Model 3. Optimizing Customer Retention (Cross-selling and Upselling)
-**Goal** 
+**Goal** :
 Identify opportunities for cross-selling and upselling to enhance customer value and retention.
 
 **Value**
