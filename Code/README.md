@@ -1,4 +1,4 @@
-# :information_source: Data exploration
+# Data exploration
 - customer.csv
 
 ![image](https://user-images.githubusercontent.com/77529445/174257963-a73f86cd-ff43-4d58-b2e0-354f623f99eb.png)
