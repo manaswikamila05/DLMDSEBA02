@@ -1,13 +1,14 @@
 # Approach Steps
 1. **Sketched the ERD Diagram**: Identified relationships between tables and created a database.
 2. **Connected to the Database**: Analyzed the dataset and performed data profiling, checking for missing values, outliers, and anomalies.
-3. **Identified Potential Factors**: Analyzed feature importance to identify key predictors of churn. Determined factors that lead to improvement in CLTV and analyzed LTV per group.
-4. **Scaled Features**: Ensured features had a consistent range or distribution.
-5. **Converted Categorical Data**: Used label encoding techniques to convert categorical data into numerical format.
-6. **Divided the Dataset**: Split the dataset into training, validation, and test sets.
-7. **Chose Suitable Algorithms**: Selected algorithms based on the problem type and data characteristics.
-8. **Trained the Model**: Used the training dataset to teach the model to recognize patterns.
-9. **Evaluated the Model**: Assessed the model's generalization capability using the test set and performance metrics.
+3. **EDA** : Performed exploratory data analysis on each feature with respect to Churn feature. Identified key predictors of churn after EDA.
+4. **LTV analysis**: Analysed average LTV, tenure and usage of services of high and low LTV customers, Determined factors that lead to improvement in CLTV and analyzed LTV per group.
+5. **Scaled Features**: Ensured features had a consistent range or distribution.
+6. **Converted Categorical Data**: Used label encoding techniques to convert categorical data into numerical format.
+7. **Divided the Dataset**: Split the dataset into training, validation, and test sets.
+8. **Chose Suitable Algorithms**: Selected algorithms based on the problem type and data characteristics.
+9. **Trained the Model**: Used the training dataset to teach the model to recognize patterns.
+10. **Evaluated the Model**: Assessed the model's generalization capability using the test set and performance metrics.
 
 # Model 1. Customer Churn Prediction
 **Goal** :
