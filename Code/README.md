@@ -19,7 +19,7 @@
 
 ![image](https://user-images.githubusercontent.com/77529445/174258435-8ff4b04f-8a8f-4515-9de5-6141ca3dea44.png)
 
-ERD diagram
+# ERD diagram
 
 ![image](https://user-images.githubusercontent.com/77529445/174948366-c3156dae-bb82-4b08-b831-38978e81a0f2.png)
 
